@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96D6F6ABB259DC36D415A7CD /* Pods_Karoooo_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B200BCB3762C0AE955F68DD0 /* Pods_Karoooo_Test.framework */; };
+		9E18A07028BA41A800CC0EF3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18A06B28BA41A800CC0EF3 /* Constant.swift */; };
+		9E18A07128BA41A800CC0EF3 /* CountryCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18A06C28BA41A800CC0EF3 /* CountryCodeCell.swift */; };
+		9E18A07228BA41A800CC0EF3 /* CountryData.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E18A06D28BA41A800CC0EF3 /* CountryData.bundle */; };
+		9E18A07328BA41A800CC0EF3 /* CountriesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18A06E28BA41A800CC0EF3 /* CountriesResponseModel.swift */; };
+		9E18A07428BA41A800CC0EF3 /* CountryCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18A06F28BA41A800CC0EF3 /* CountryCodeVC.swift */; };
+		9E484E1828B94C0E00D83B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E484E1728B94C0E00D83B7D /* AppDelegate.swift */; };
+		9E484E1A28B94C0E00D83B7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E484E1928B94C0E00D83B7D /* SceneDelegate.swift */; };
+		9E484E1F28B94C0E00D83B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E484E1D28B94C0E00D83B7D /* Main.storyboard */; };
+		9E484E2128B94C0F00D83B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E484E2028B94C0F00D83B7D /* Assets.xcassets */; };
+		9E484E2428B94C0F00D83B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E484E2228B94C0F00D83B7D /* LaunchScreen.storyboard */; };
+		9E484E3228B94E1400D83B7D /* SignIn_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E484E3128B94E1400D83B7D /* SignIn_VC.swift */; };
+		9E484E3428B94EB000D83B7D /* UserList_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E484E3328B94EB000D83B7D /* UserList_VC.swift */; };
+		9E484E3628B94ECD00D83B7D /* UserDetails_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E484E3528B94ECD00D83B7D /* UserDetails_VC.swift */; };
+		9E484E3928B9571D00D83B7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E484E3828B9571D00D83B7D /* Extensions.swift */; };
+		9E7C047B28BA72D9006F6D8E /* UserLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C047A28BA72D9006F6D8E /* UserLoginModel.swift */; };
+		9E7C047D28BA7378006F6D8E /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C047C28BA7378006F6D8E /* DBHelper.swift */; };
+		9E7C048028BA9493006F6D8E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C047F28BA9493006F6D8E /* Validator.swift */; };
+		9E7C048228BA9EB9006F6D8E /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C048128BA9EB9006F6D8E /* Global.swift */; };
+		9E830FE828BB470B0005BD96 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E830FE728BB470B0005BD96 /* APIService.swift */; };
+		9E830FEA28BB47ED0005BD96 /* UsersListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E830FE928BB47ED0005BD96 /* UsersListModel.swift */; };
+		9E830FEC28BB489A0005BD96 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E830FEB28BB489A0005BD96 /* UsersViewModel.swift */; };
+		9E830FF228BB656A0005BD96 /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E830FF128BB656A0005BD96 /* InternetConnectionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D9123E6A6C6EF3DC7C1BAA3 /* Pods-Karoooo Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karoooo Test.release.xcconfig"; path = "Target Support Files/Pods-Karoooo Test/Pods-Karoooo Test.release.xcconfig"; sourceTree = "<group>"; };
+		4A58EC18B267CCDC3DC88136 /* Pods-Karoooo Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karoooo Test.debug.xcconfig"; path = "Target Support Files/Pods-Karoooo Test/Pods-Karoooo Test.debug.xcconfig"; sourceTree = "<group>"; };
+		9E18A06B28BA41A800CC0EF3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9E18A06C28BA41A800CC0EF3 /* CountryCodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeCell.swift; sourceTree = "<group>"; };
+		9E18A06D28BA41A800CC0EF3 /* CountryData.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryData.bundle; sourceTree = "<group>"; };
+		9E18A06E28BA41A800CC0EF3 /* CountriesResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesResponseModel.swift; sourceTree = "<group>"; };
+		9E18A06F28BA41A800CC0EF3 /* CountryCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeVC.swift; sourceTree = "<group>"; };
+		9E484E1428B94C0E00D83B7D /* Karoooo Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karoooo Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E484E1728B94C0E00D83B7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E484E1928B94C0E00D83B7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E484E1E28B94C0E00D83B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E484E2028B94C0F00D83B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E484E2328B94C0F00D83B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E484E2528B94C0F00D83B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E484E3128B94E1400D83B7D /* SignIn_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn_VC.swift; sourceTree = "<group>"; };
+		9E484E3328B94EB000D83B7D /* UserList_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList_VC.swift; sourceTree = "<group>"; };
+		9E484E3528B94ECD00D83B7D /* UserDetails_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails_VC.swift; sourceTree = "<group>"; };
+		9E484E3828B9571D00D83B7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9E7C047A28BA72D9006F6D8E /* UserLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginModel.swift; sourceTree = "<group>"; };
+		9E7C047C28BA7378006F6D8E /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		9E7C047F28BA9493006F6D8E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		9E7C048128BA9EB9006F6D8E /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		9E830FE728BB470B0005BD96 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9E830FE928BB47ED0005BD96 /* UsersListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListModel.swift; sourceTree = "<group>"; };
+		9E830FEB28BB489A0005BD96 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		9E830FF128BB656A0005BD96 /* InternetConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
+		B200BCB3762C0AE955F68DD0 /* Pods_Karoooo_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karoooo_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E484E1128B94C0E00D83B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D6F6ABB259DC36D415A7CD /* Pods_Karoooo_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE5587F80B9398F0CBBC9F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A58EC18B267CCDC3DC88136 /* Pods-Karoooo Test.debug.xcconfig */,
+				3D9123E6A6C6EF3DC7C1BAA3 /* Pods-Karoooo Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		51CBC4A8F84FAEDFFB38D1B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B200BCB3762C0AE955F68DD0 /* Pods_Karoooo_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E18A06828BA419500CC0EF3 /* OthersSoruce */ = {
+			isa = PBXGroup;
+			children = (
+				9E18A06928BA41A800CC0EF3 /* CountryCodeVC */,
+			);
+			path = OthersSoruce;
+			sourceTree = "<group>";
+		};
+		9E18A06928BA41A800CC0EF3 /* CountryCodeVC */ = {
+			isa = PBXGroup;
+			children = (
+				9E18A06A28BA41A800CC0EF3 /* Resources */,
+			);
+			path = CountryCodeVC;
+			sourceTree = "<group>";
+		};
+		9E18A06A28BA41A800CC0EF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E18A06B28BA41A800CC0EF3 /* Constant.swift */,
+				9E18A06C28BA41A800CC0EF3 /* CountryCodeCell.swift */,
+				9E18A06D28BA41A800CC0EF3 /* CountryData.bundle */,
+				9E18A06E28BA41A800CC0EF3 /* CountriesResponseModel.swift */,
+				9E18A06F28BA41A800CC0EF3 /* CountryCodeVC.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E484E0B28B94C0E00D83B7D = {
+			isa = PBXGroup;
+			children = (
+				9E484E1628B94C0E00D83B7D /* Karoooo Test */,
+				9E484E1528B94C0E00D83B7D /* Products */,
+				0FE5587F80B9398F0CBBC9F1 /* Pods */,
+				51CBC4A8F84FAEDFFB38D1B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E484E1528B94C0E00D83B7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E484E1428B94C0E00D83B7D /* Karoooo Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E484E1628B94C0E00D83B7D /* Karoooo Test */ = {
+			isa = PBXGroup;
+			children = (
+				9E484E2D28B94C3700D83B7D /* Models */,
+				9E484E2C28B94C2E00D83B7D /* ViewModels */,
+				9E484E2E28B94C3D00D83B7D /* Controller */,
+				9E484E3028B94C5D00D83B7D /* APIServices */,
+				9E484E3728B9570900D83B7D /* Extension */,
+				9E484E2B28B94C2100D83B7D /* AppDelegate */,
+				9E484E1D28B94C0E00D83B7D /* Main.storyboard */,
+				9E484E2028B94C0F00D83B7D /* Assets.xcassets */,
+				9E484E2228B94C0F00D83B7D /* LaunchScreen.storyboard */,
+				9E484E2528B94C0F00D83B7D /* Info.plist */,
+			);
+			path = "Karoooo Test";
+			sourceTree = "<group>";
+		};
+		9E484E2B28B94C2100D83B7D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9E484E1728B94C0E00D83B7D /* AppDelegate.swift */,
+				9E484E1928B94C0E00D83B7D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9E484E2C28B94C2E00D83B7D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9E830FEB28BB489A0005BD96 /* UsersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9E484E2D28B94C3700D83B7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E7C047A28BA72D9006F6D8E /* UserLoginModel.swift */,
+				9E830FE928BB47ED0005BD96 /* UsersListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E484E2E28B94C3D00D83B7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E7C047E28BA9428006F6D8E /* Cons */,
+				9E18A06828BA419500CC0EF3 /* OthersSoruce */,
+				9E484E3128B94E1400D83B7D /* SignIn_VC.swift */,
+				9E484E3328B94EB000D83B7D /* UserList_VC.swift */,
+				9E484E3528B94ECD00D83B7D /* UserDetails_VC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E484E3028B94C5D00D83B7D /* APIServices */ = {
+			isa = PBXGroup;
+			children = (
+				9E7C047C28BA7378006F6D8E /* DBHelper.swift */,
+				9E830FE728BB470B0005BD96 /* APIService.swift */,
+			);
+			path = APIServices;
+			sourceTree = "<group>";
+		};
+		9E484E3728B9570900D83B7D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E484E3828B9571D00D83B7D /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9E7C047E28BA9428006F6D8E /* Cons */ = {
+			isa = PBXGroup;
+			children = (
+				9E7C047F28BA9493006F6D8E /* Validator.swift */,
+				9E7C048128BA9EB9006F6D8E /* Global.swift */,
+				9E830FF128BB656A0005BD96 /* InternetConnectionManager.swift */,
+			);
+			path = Cons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E484E1328B94C0E00D83B7D /* Karoooo Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E484E2828B94C0F00D83B7D /* Build configuration list for PBXNativeTarget "Karoooo Test" */;
+			buildPhases = (
+				A685A98C6AE269BCD72D2830 /* [CP] Check Pods Manifest.lock */,
+				9E484E1028B94C0E00D83B7D /* Sources */,
+				9E484E1128B94C0E00D83B7D /* Frameworks */,
+				9E484E1228B94C0E00D83B7D /* Resources */,
+				340B792FABD11EA3B238C354 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karoooo Test";
+			productName = "Karoooo Test";
+			productReference = 9E484E1428B94C0E00D83B7D /* Karoooo Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E484E0C28B94C0E00D83B7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9E484E1328B94C0E00D83B7D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E484E0F28B94C0E00D83B7D /* Build configuration list for PBXProject "Karoooo Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E484E0B28B94C0E00D83B7D;
+			productRefGroup = 9E484E1528B94C0E00D83B7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E484E1328B94C0E00D83B7D /* Karoooo Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E484E1228B94C0E00D83B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E18A07228BA41A800CC0EF3 /* CountryData.bundle in Resources */,
+				9E484E2428B94C0F00D83B7D /* LaunchScreen.storyboard in Resources */,
+				9E484E2128B94C0F00D83B7D /* Assets.xcassets in Resources */,
+				9E484E1F28B94C0E00D83B7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		340B792FABD11EA3B238C354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karoooo Test/Pods-Karoooo Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Karoooo Test/Pods-Karoooo Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Karoooo Test/Pods-Karoooo Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A685A98C6AE269BCD72D2830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Karoooo Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E484E1028B94C0E00D83B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E18A07428BA41A800CC0EF3 /* CountryCodeVC.swift in Sources */,
+				9E830FE828BB470B0005BD96 /* APIService.swift in Sources */,
+				9E18A07328BA41A800CC0EF3 /* CountriesResponseModel.swift in Sources */,
+				9E18A07028BA41A800CC0EF3 /* Constant.swift in Sources */,
+				9E484E1828B94C0E00D83B7D /* AppDelegate.swift in Sources */,
+				9E7C048028BA9493006F6D8E /* Validator.swift in Sources */,
+				9E484E3928B9571D00D83B7D /* Extensions.swift in Sources */,
+				9E830FF228BB656A0005BD96 /* InternetConnectionManager.swift in Sources */,
+				9E7C048228BA9EB9006F6D8E /* Global.swift in Sources */,
+				9E830FEC28BB489A0005BD96 /* UsersViewModel.swift in Sources */,
+				9E484E3628B94ECD00D83B7D /* UserDetails_VC.swift in Sources */,
+				9E484E3228B94E1400D83B7D /* SignIn_VC.swift in Sources */,
+				9E7C047D28BA7378006F6D8E /* DBHelper.swift in Sources */,
+				9E484E1A28B94C0E00D83B7D /* SceneDelegate.swift in Sources */,
+				9E484E3428B94EB000D83B7D /* UserList_VC.swift in Sources */,
+				9E18A07128BA41A800CC0EF3 /* CountryCodeCell.swift in Sources */,
+				9E830FEA28BB47ED0005BD96 /* UsersListModel.swift in Sources */,
+				9E7C047B28BA72D9006F6D8E /* UserLoginModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E484E1D28B94C0E00D83B7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E484E1E28B94C0E00D83B7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E484E2228B94C0F00D83B7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E484E2328B94C0F00D83B7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E484E2628B94C0F00D83B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E484E2728B94C0F00D83B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E484E2928B94C0F00D83B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A58EC18B267CCDC3DC88136 /* Pods-Karoooo Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTXB66J853;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Karoooo Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karooo.app.Karoooo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E484E2A28B94C0F00D83B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9123E6A6C6EF3DC7C1BAA3 /* Pods-Karoooo Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GTXB66J853;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Karoooo Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karooo.app.Karoooo-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E484E0F28B94C0E00D83B7D /* Build configuration list for PBXProject "Karoooo Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E484E2628B94C0F00D83B7D /* Debug */,
+				9E484E2728B94C0F00D83B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E484E2828B94C0F00D83B7D /* Build configuration list for PBXNativeTarget "Karoooo Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E484E2928B94C0F00D83B7D /* Debug */,
+				9E484E2A28B94C0F00D83B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E484E0C28B94C0E00D83B7D /* Project object */;
+}
