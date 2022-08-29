@@ -70,7 +70,7 @@ extension UserList_VC: UITableViewDelegate, UITableViewDataSource{
         let user = arrUserDetails[indexPath.row]
         objUserdetailsVC.strName = user.name
         objUserdetailsVC.strEmail = user.email
-        objUserdetailsVC.strAddress = "\(user.address?.street ?? "") \(user.address?.suite ?? "") \(user.address?.city ?? "")"
+        objUserdetailsVC.strAddress = "\(user.address?.suite ?? "") \(user.address?.city ?? "")"
         objUserdetailsVC.strphone = user.phone
         objUserdetailsVC.strWebsite = user.website
         objUserdetailsVC.strCompany = user.company?.name ?? ""
