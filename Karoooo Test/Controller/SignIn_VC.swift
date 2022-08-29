@@ -44,9 +44,7 @@ class SignIn_VC: UIViewController {
                                                selector:#selector(self.UpdateLocation(_:)),
                                                name: .didFetchLocationNotification, object:nil)
         
-        txtUser.text = "johnsmith@gmail.com"
-             txtPassword.text = "123456"
-             txtPhone.text = "7043456562"
+ 
     }
     
     //MARK: Update Current Country Details
