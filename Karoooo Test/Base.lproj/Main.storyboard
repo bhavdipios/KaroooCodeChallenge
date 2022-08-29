@@ -432,7 +432,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oj6-uc-q62"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="theme"/>
                         <constraints>
                             <constraint firstItem="oj6-uc-q62" firstAttribute="trailing" secondItem="O9w-9U-ls8" secondAttribute="trailing" constant="20" id="Kb8-h8-1tA"/>
                             <constraint firstAttribute="bottom" secondItem="O9w-9U-ls8" secondAttribute="bottom" constant="20" symbolic="YES" id="YV7-si-42F"/>
