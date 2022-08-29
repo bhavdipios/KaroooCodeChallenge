@@ -142,7 +142,7 @@
 			children = (
 				9E484E2D28B94C3700D83B7D /* Models */,
 				9E484E2C28B94C2E00D83B7D /* ViewModels */,
-				9E484E2E28B94C3D00D83B7D /* Controller */,
+				9E484E2E28B94C3D00D83B7D /* View */,
 				9E484E3028B94C5D00D83B7D /* APIServices */,
 				9E484E3728B9570900D83B7D /* Extension */,
 				9E484E2B28B94C2100D83B7D /* AppDelegate */,
@@ -180,7 +180,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		9E484E2E28B94C3D00D83B7D /* Controller */ = {
+		9E484E2E28B94C3D00D83B7D /* View */ = {
 			isa = PBXGroup;
 			children = (
 				9E7C047E28BA9428006F6D8E /* Cons */,
@@ -189,7 +189,7 @@
 				9E484E3328B94EB000D83B7D /* UserList_VC.swift */,
 				9E484E3528B94ECD00D83B7D /* UserDetails_VC.swift */,
 			);
-			path = Controller;
+			path = View;
 			sourceTree = "<group>";
 		};
 		9E484E3028B94C5D00D83B7D /* APIServices */ = {
